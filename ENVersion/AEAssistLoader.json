@@ -1,0 +1,13 @@
+{
+  "Author": "AE",
+  "Name": "AEAssistLoader",
+  "Punchline": "Hello world",
+  "Description": "A combat routine for end-game content",
+  "InternalName": "AEAssist",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "combat",
+    "auto",
+    "plugin"
+  ]
+}
