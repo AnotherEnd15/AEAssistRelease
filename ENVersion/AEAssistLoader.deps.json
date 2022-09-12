@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "AEAssistLoader/1.0.0": {
         "dependencies": {
+          "AEAssist": "1.0.0",
           "AEAssistInterface": "1.0.0",
           "Microsoft.Extensions.Http": "5.0.0",
           "RestSharp": "108.0.2-alpha.0.6",
@@ -159,6 +160,25 @@
           }
         }
       },
+      "AEAssist/1.0.0": {
+        "dependencies": {
+          "AEAssistInterface": "1.0.0"
+        },
+        "runtime": {
+          "AEAssist.dll": {}
+        },
+        "resources": {
+          "zh-Hans/System.Windows.Forms.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "zh-Hans/System.Deployment.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "zh-Hans/System.Runtime.Serialization.Formatters.Soap.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
       "AEAssistInterface/1.0.0": {
         "dependencies": {
           "Microsoft.Win32.Registry": "6.0.0-preview.5.21301.5",
@@ -166,6 +186,53 @@
         },
         "runtime": {
           "AEAssistInterface.dll": {}
+        }
+      },
+      "System.Windows.Forms/4.0.0.0": {
+        "runtime": {
+          "System.Windows.Forms.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.4488.0"
+          }
+        },
+        "resources": {
+          "zh-Hans/System.Windows.Forms.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "Accessibility/4.0.0.0": {
+        "runtime": {
+          "Accessibility.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.4161.0"
+          }
+        }
+      },
+      "System.Deployment/4.0.0.0": {
+        "runtime": {
+          "System.Deployment.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.4341.0"
+          }
+        },
+        "resources": {
+          "zh-Hans/System.Deployment.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "System.Runtime.Serialization.Formatters.Soap/4.0.0.0": {
+        "runtime": {
+          "System.Runtime.Serialization.Formatters.Soap.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.4161.0"
+          }
+        },
+        "resources": {
+          "zh-Hans/System.Runtime.Serialization.Formatters.Soap.resources.dll": {
+            "locale": "zh-Hans"
+          }
         }
       }
     }
@@ -288,8 +355,33 @@
       "path": "tencent.qcloud.cos.sdk/5.4.32",
       "hashPath": "tencent.qcloud.cos.sdk.5.4.32.nupkg.sha512"
     },
+    "AEAssist/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "AEAssistInterface/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Forms/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accessibility/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Deployment/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Runtime.Serialization.Formatters.Soap/4.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
