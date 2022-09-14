@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.Win32.Registry": "6.0.0-preview.5.21301.5",
           "System.Management": "5.0.0",
-          "Newtonsoft.Json": "13.0.0.0"
+          "Newtonsoft.Json": "13.0.0.0",
+          "System.Windows.Forms": "4.0.0.0"
         },
         "runtime": {
           "AEAssistInterface.dll": {}
@@ -65,6 +66,14 @@
             "fileVersion": "13.0.1.25517"
           }
         }
+      },
+      "System.Windows.Forms/4.0.0.0": {
+        "runtime": {
+          "System.Windows.Forms.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.4488.0"
+          }
+        }
       }
     }
   },
@@ -117,6 +126,11 @@
       "hashPath": "system.security.principal.windows.6.0.0-preview.5.21301.5.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Forms/4.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
