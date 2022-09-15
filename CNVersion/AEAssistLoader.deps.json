@@ -19,6 +19,14 @@
           "AEAssistLoader.dll": {}
         }
       },
+      "AsyncKeyState.Net/1.0.1": {
+        "runtime": {
+          "lib/net47/AsyncKeyState.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
       "Microsoft.Extensions.DependencyInjection/5.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
@@ -215,6 +223,7 @@
       },
       "AEAssistInterface/1.0.0": {
         "dependencies": {
+          "AsyncKeyState.Net": "1.0.1",
           "Microsoft.Win32.Registry": "6.0.0-preview.5.21301.5",
           "System.Management": "5.0.0"
         },
@@ -237,6 +246,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AsyncKeyState.Net/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PSIG0uESbnRuVKNeSWC3n1K9kuiQcYZs0d1QaEwUiiAyAmZJ2P+hhSleSSSzKSyDeBmIIXEkY7Txy3n2SoCMxg==",
+      "path": "asynckeystate.net/1.0.1",
+      "hashPath": "asynckeystate.net.1.0.1.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/5.0.0": {
       "type": "package",

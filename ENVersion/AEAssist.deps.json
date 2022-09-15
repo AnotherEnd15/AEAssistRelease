@@ -9,10 +9,19 @@
       "AEAssist/1.0.0": {
         "dependencies": {
           "AEAssistInterface": "1.0.0",
+          "AsyncKeyState.Net": "1.0.1",
           "System.Windows.Forms": "4.0.0.0"
         },
         "runtime": {
           "AEAssist.dll": {}
+        }
+      },
+      "AsyncKeyState.Net/1.0.1": {
+        "runtime": {
+          "lib/net47/AsyncKeyState.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/5.0.0": {},
@@ -59,6 +68,7 @@
       "System.Security.Principal.Windows/6.0.0-preview.5.21301.5": {},
       "AEAssistInterface/1.0.0": {
         "dependencies": {
+          "AsyncKeyState.Net": "1.0.1",
           "Microsoft.Win32.Registry": "6.0.0-preview.5.21301.5",
           "System.Management": "5.0.0"
         },
@@ -81,6 +91,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AsyncKeyState.Net/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PSIG0uESbnRuVKNeSWC3n1K9kuiQcYZs0d1QaEwUiiAyAmZJ2P+hhSleSSSzKSyDeBmIIXEkY7Txy3n2SoCMxg==",
+      "path": "asynckeystate.net/1.0.1",
+      "hashPath": "asynckeystate.net.1.0.1.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/5.0.0": {
       "type": "package",
