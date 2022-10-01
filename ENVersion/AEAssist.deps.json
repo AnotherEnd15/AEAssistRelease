@@ -9,7 +9,6 @@
       "AEAssist/1.0.0": {
         "dependencies": {
           "AEAssistInterface": "1.0.0",
-          "AEPathFinding": "1.0.0",
           "AsyncKeyState.Net": "1.0.1",
           "System.Windows.Forms": "4.0.0.0"
         },
@@ -75,11 +74,6 @@
         },
         "runtime": {
           "AEAssistInterface.dll": {}
-        }
-      },
-      "AEPathFinding/1.0.0": {
-        "runtime": {
-          "AEPathFinding.dll": {}
         }
       },
       "System.Windows.Forms/4.0.0.0": {
@@ -148,11 +142,6 @@
       "hashPath": "system.security.principal.windows.6.0.0-preview.5.21301.5.nupkg.sha512"
     },
     "AEAssistInterface/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "AEPathFinding/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
