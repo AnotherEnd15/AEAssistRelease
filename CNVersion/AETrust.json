@@ -1,0 +1,13 @@
+{
+  "Author": "AE",
+  "Name": "AETrust",
+  "Punchline": "",
+  "Description": "",
+  "InternalName": "AETrust",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "trust",
+    "auto",
+    "plugin"
+  ]
+}

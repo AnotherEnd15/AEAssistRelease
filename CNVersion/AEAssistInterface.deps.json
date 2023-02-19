@@ -9,7 +9,10 @@
       "AEAssistInterface/1.0.0": {
         "dependencies": {
           "AsyncKeyState.Net": "1.0.1",
+          "Autofac": "6.5.0",
+          "Extended.Wpf.Toolkit": "4.5.0",
           "Microsoft.Win32.Registry": "6.0.0-preview.5.21301.5",
+          "Samboy063.Tomlet": "5.1.2",
           "System.Management": "5.0.0",
           "Newtonsoft.Json": "13.0.0.0",
           "System.Windows.Forms": "4.0.0.0"
@@ -26,11 +29,92 @@
           }
         }
       },
+      "Autofac/6.5.0": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "runtime": {
+          "lib/net6.0/Autofac.dll": {
+            "assemblyVersion": "6.5.0.0",
+            "fileVersion": "6.5.0.0"
+          }
+        }
+      },
+      "Extended.Wpf.Toolkit/4.5.0": {
+        "runtime": {
+          "lib/net5.0/Xceed.Wpf.AvalonDock.NET5.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.5.0.0"
+          },
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Aero.NET5.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.5.0.0"
+          },
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Metro.NET5.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.5.0.0"
+          },
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.VS2010.NET5.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.5.0.0"
+          },
+          "lib/net5.0/Xceed.Wpf.Toolkit.NET5.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.5.0.0"
+          }
+        },
+        "resources": {
+          "lib/net5.0/cs-CZ/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "lib/net5.0/de/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net5.0/es/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net5.0/fr/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net5.0/hu/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net5.0/it/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net5.0/ja-JP/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net5.0/pt-BR/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net5.0/ro/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net5.0/ru/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net5.0/sv/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net5.0/zh-Hans/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/5.0.0": {},
       "Microsoft.Win32.Registry/6.0.0-preview.5.21301.5": {
         "dependencies": {
           "System.Security.AccessControl": "6.0.0-preview.5.21301.5",
           "System.Security.Principal.Windows": "6.0.0-preview.5.21301.5"
+        }
+      },
+      "Samboy063.Tomlet/5.1.2": {
+        "runtime": {
+          "lib/net6.0/Tomlet.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
         }
       },
       "System.CodeDom/5.0.0": {
@@ -41,6 +125,7 @@
           }
         }
       },
+      "System.Diagnostics.DiagnosticSource/4.7.1": {},
       "System.Management/5.0.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -99,6 +184,20 @@
       "path": "asynckeystate.net/1.0.1",
       "hashPath": "asynckeystate.net.1.0.1.nupkg.sha512"
     },
+    "Autofac/6.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sm6HWWBDEoTPGXeyOchMygJ/7L89VxmVH72BFxakG88J34AVjA8RMi5jbv3PdpUtXI/d9ZLKOaxCmOSIo2K4aA==",
+      "path": "autofac/6.5.0",
+      "hashPath": "autofac.6.5.0.nupkg.sha512"
+    },
+    "Extended.Wpf.Toolkit/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oQP6Qyuz+3kETAC/s+cBEfb8Vzbju6pB7Q5czW4KdkAOpFJTA/SCox8caH6HLQxQ6Lwq2jCeSQOPJKlnpqpFOg==",
+      "path": "extended.wpf.toolkit/4.5.0",
+      "hashPath": "extended.wpf.toolkit.4.5.0.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/5.0.0": {
       "type": "package",
       "serviceable": true,
@@ -113,12 +212,26 @@
       "path": "microsoft.win32.registry/6.0.0-preview.5.21301.5",
       "hashPath": "microsoft.win32.registry.6.0.0-preview.5.21301.5.nupkg.sha512"
     },
+    "Samboy063.Tomlet/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BQUfup0RZAnvYh1ok4ojihlv5SezjTI2krTxp04m5LDBwurRm5+4ONALeGlW2Syeexs1d5yftnZGz+qtVRcrMQ==",
+      "path": "samboy063.tomlet/5.1.2",
+      "hashPath": "samboy063.tomlet.5.1.2.nupkg.sha512"
+    },
     "System.CodeDom/5.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-JPJArwA1kdj8qDAkY2XGjSWoYnqiM7q/3yRNkt6n28Mnn95MuEGkZXUbPBf7qc3IjwrGY5ttQon7yqHZyQJmOQ==",
       "path": "system.codedom/5.0.0",
       "hashPath": "system.codedom.5.0.0.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
+      "path": "system.diagnostics.diagnosticsource/4.7.1",
+      "hashPath": "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
     },
     "System.Management/5.0.0": {
       "type": "package",
