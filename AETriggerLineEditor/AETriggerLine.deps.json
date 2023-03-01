@@ -1,12 +1,12 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v6.0/win-x64",
+    "name": ".NETCoreApp,Version=v7.0/win-x64",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v6.0": {},
-    ".NETCoreApp,Version=v6.0/win-x64": {
+    ".NETCoreApp,Version=v7.0": {},
+    ".NETCoreApp,Version=v7.0/win-x64": {
       "AETriggerLine/1.0.0": {
         "dependencies": {
           "AEAssistInterface": "1.0.0",
@@ -108,14 +108,7 @@
           "System.Security.Principal.Windows": "6.0.0-preview.5.21301.5"
         }
       },
-      "Microsoft.Win32.SystemEvents/7.0.0-preview.7.22375.6": {
-        "runtime": {
-          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.37506"
-          }
-        }
-      },
+      "Microsoft.Win32.SystemEvents/7.0.0-preview.7.22375.6": {},
       "PrettyBin/1.1.0": {},
       "PropertyChanged.Fody/3.4.1": {
         "dependencies": {
@@ -135,12 +128,6 @@
       "System.Drawing.Common/7.0.0-preview.7.22375.6": {
         "dependencies": {
           "Microsoft.Win32.SystemEvents": "7.0.0-preview.7.22375.6"
-        },
-        "runtime": {
-          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.37506"
-          }
         }
       },
       "System.Management/5.0.0": {
@@ -187,7 +174,7 @@
         "runtime": {
           "Newtonsoft.Json.dll": {
             "assemblyVersion": "13.0.0.0",
-            "fileVersion": "13.0.1.25517"
+            "fileVersion": "13.0.2.27524"
           }
         }
       }

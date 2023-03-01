@@ -12,6 +12,7 @@
           "AETrust": "1.0.0",
           "Autofac": "6.5.0",
           "Microsoft.Extensions.Http": "5.0.0",
+          "MiniGame": "1.0.0",
           "RestSharp": "108.0.2-alpha.0.6",
           "Tencent.QCloud.Cos.Sdk": "5.4.32",
           "System.Windows.Forms": "4.0.0.0"
@@ -280,6 +281,14 @@
           "AETrust.dll": {}
         }
       },
+      "MiniGame/1.0.0": {
+        "dependencies": {
+          "AEAssistInterface": "1.0.0"
+        },
+        "runtime": {
+          "MiniGame.dll": {}
+        }
+      },
       "System.Windows.Forms/4.0.0.0": {
         "runtime": {
           "System.Windows.Forms.dll": {
@@ -452,6 +461,11 @@
       "sha512": ""
     },
     "AETrust/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiniGame/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

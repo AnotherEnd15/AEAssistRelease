@@ -1,0 +1,114 @@
+{
+  "Name": "87",
+  "AllSteps": [
+    {
+      "Remark": "1",
+      "TargetPos": {
+        "X": -143.39671,
+        "Y": 495.99997,
+        "Z": 48.911907
+      },
+      "ArriveActionType": 1,
+      "ArriveActionParams": {
+        "$type": "MoveToTransferParams, AETrust",
+        "Pos": {
+          "X": -132.90324,
+          "Y": 501.37955,
+          "Z": 3.9592922
+        }
+      }
+    },
+    {
+      "Remark": "中间1",
+      "TargetPos": {
+        "X": -98.514915,
+        "Y": 624.02,
+        "Z": 164.954
+      },
+      "ArriveActionType": 0,
+      "ArriveActionParams": null
+    },
+    {
+      "Remark": "中间2",
+      "TargetPos": {
+        "X": -1.9562387,
+        "Y": 623.99994,
+        "Z": 165.91144
+      },
+      "ArriveActionType": 0,
+      "ArriveActionParams": null
+    },
+    {
+      "Remark": "2",
+      "TargetPos": {
+        "X": -0.13958386,
+        "Y": 630.00006,
+        "Z": 54.72835
+      },
+      "ArriveActionType": 1,
+      "ArriveActionParams": {
+        "$type": "MoveToTransferParams, AETrust",
+        "Pos": {
+          "X": -0.0038520992,
+          "Y": 631.5209,
+          "Z": -10.600933
+        }
+      }
+    },
+    {
+      "Remark": "",
+      "TargetPos": {
+        "X": 0.15437153,
+        "Y": -695.9179,
+        "Z": 1.5372956
+      },
+      "ArriveActionType": 2,
+      "ArriveActionParams": {
+        "$type": "WaitParams, AETrust",
+        "TimeInMillSec": 5000
+      }
+    },
+    {
+      "Remark": "",
+      "TargetPos": {
+        "X": 30.29921,
+        "Y": -598.3988,
+        "Z": -73.32591
+      },
+      "ArriveActionType": 2,
+      "ArriveActionParams": {
+        "$type": "WaitParams, AETrust",
+        "TimeInMillSec": 10000
+      }
+    },
+    {
+      "Remark": "",
+      "TargetPos": {
+        "X": -33.453022,
+        "Y": -131.62404,
+        "Z": -7.5153465
+      },
+      "ArriveActionType": 2,
+      "ArriveActionParams": {
+        "$type": "WaitParams, AETrust",
+        "TimeInMillSec": 5000
+      }
+    },
+    {
+      "Remark": "",
+      "TargetPos": {
+        "X": -0.36778653,
+        "Y": 2.3841858E-07,
+        "Z": -43.084457
+      },
+      "ArriveActionType": 0,
+      "ArriveActionParams": null
+    }
+  ],
+  "NavmeshPath": "Navmesh/dungeon_87.bin",
+  "TrustVersion": 1,
+  "Index": 3,
+  "TerritoryTypeID": 974,
+  "BossConfigs": [],
+  "SpellResolvers": []
+}
