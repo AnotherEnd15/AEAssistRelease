@@ -11,9 +11,11 @@
           "AsyncKeyState.Net": "1.0.1",
           "Autofac": "6.5.0",
           "Extended.Wpf.Toolkit": "4.5.0",
+          "MemoryPack": "1.9.13",
           "Microsoft.Win32.Registry": "6.0.0-preview.5.21301.5",
           "Samboy063.Tomlet": "5.1.2",
           "System.Management": "5.0.0",
+          "YamlDotNet": "13.0.2",
           "Newtonsoft.Json": "13.0.0.0",
           "System.Windows.Forms": "4.0.0.0"
         },
@@ -102,6 +104,21 @@
           }
         }
       },
+      "MemoryPack/1.9.13": {
+        "dependencies": {
+          "MemoryPack.Core": "1.9.13",
+          "MemoryPack.Generator": "1.9.13"
+        }
+      },
+      "MemoryPack.Core/1.9.13": {
+        "runtime": {
+          "lib/net7.0/MemoryPack.Core.dll": {
+            "assemblyVersion": "1.9.13.0",
+            "fileVersion": "1.9.13.0"
+          }
+        }
+      },
+      "MemoryPack.Generator/1.9.13": {},
       "Microsoft.NETCore.Platforms/5.0.0": {},
       "Microsoft.Win32.Registry/6.0.0-preview.5.21301.5": {
         "dependencies": {
@@ -153,6 +170,14 @@
         }
       },
       "System.Security.Principal.Windows/6.0.0-preview.5.21301.5": {},
+      "YamlDotNet/13.0.2": {
+        "runtime": {
+          "lib/net7.0/YamlDotNet.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.0"
+          }
+        }
+      },
       "Newtonsoft.Json/13.0.0.0": {
         "runtime": {
           "Newtonsoft.Json.dll": {
@@ -197,6 +222,27 @@
       "sha512": "sha512-oQP6Qyuz+3kETAC/s+cBEfb8Vzbju6pB7Q5czW4KdkAOpFJTA/SCox8caH6HLQxQ6Lwq2jCeSQOPJKlnpqpFOg==",
       "path": "extended.wpf.toolkit/4.5.0",
       "hashPath": "extended.wpf.toolkit.4.5.0.nupkg.sha512"
+    },
+    "MemoryPack/1.9.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aLZgYHIZ01egF4pdJO7lL7oDbv6PKU4hDDO4G99dbiTuSwTQDnnTfAzNT67zwnIK+iffRxVIs/jmvvKtDIVtzQ==",
+      "path": "memorypack/1.9.13",
+      "hashPath": "memorypack.1.9.13.nupkg.sha512"
+    },
+    "MemoryPack.Core/1.9.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p2kKNc1jJyNAn8ygQsVEBcz3icCkH5+jqinXMGsSaGvkCYgEzcYuEFBC21ExZw3Gk1uf8gKhzZk2pIl/bmnKvA==",
+      "path": "memorypack.core/1.9.13",
+      "hashPath": "memorypack.core.1.9.13.nupkg.sha512"
+    },
+    "MemoryPack.Generator/1.9.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1khUb/7bjAy8BRp/N9gwTfnPbdW1vo6vGgtIcb3/P1JuA8onGIRIdH/0J672J9NZRGE0T7wjKNLS32ODw+QpSw==",
+      "path": "memorypack.generator/1.9.13",
+      "hashPath": "memorypack.generator.1.9.13.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/5.0.0": {
       "type": "package",
@@ -253,6 +299,13 @@
       "sha512": "sha512-ywwCqFAaRVbgqqORqYg8jdaX6NUEpzbuhxyUhAs+7mZ8AFAO4PzFYrZ5JPkYejXwougDldtbi0zOkk1lLzugLw==",
       "path": "system.security.principal.windows/6.0.0-preview.5.21301.5",
       "hashPath": "system.security.principal.windows.6.0.0-preview.5.21301.5.nupkg.sha512"
+    },
+    "YamlDotNet/13.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hRPqCt2bxTvHN6iT2JNG2KznDPFgD5B6j0bQ7woSpfGctmjgAYdKQ+LYHUaj/7q8sN1AbIcTNbaO75g8IFmTjw==",
+      "path": "yamldotnet/13.0.2",
+      "hashPath": "yamldotnet.13.0.2.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.0.0": {
       "type": "reference",
